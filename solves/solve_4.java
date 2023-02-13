@@ -26,8 +26,8 @@ public class solve_4 extends GhidraScript {
             	Iterator<Function> funcs = calledFunctions.iterator();
             	
             	while(funcs.hasNext()) {
-            	Function called = funcs.next();
-                println("Called function: " + called.getName());
+                    Function called = funcs.next();
+                    println("Called function: " + called.getName());
 
             	}
             	

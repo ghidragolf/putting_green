@@ -3,11 +3,11 @@ The "Putting Green" are a series of entry level Ghidra Scripting challenges desi
 
 These series of 9 challenges walk a competitor through different scripting scenarios to include patching, searching, metadata extraction, and symbol enumeration. From challenge 1 through 4 a template script is provided to the competitor. Challenges 5 on wards require writing your own in either Python or Java. A description of the challenges can be seen below with corresponding "solve scripts" available in [./solves](./solves).
 
-These challenges and associated solve scripts are being Open Sourced in hopes of future competition organizers leveraging them in their own Ghidra Golf Competition or inspiring them for similar challenges.
+These challenges and associated solve scripts are being released in hopes of future competition organizers leveraging them in their own Ghidra Golf Competition or inspiring them for similar challenges.
 
 ## Challenge Description
 
-* [1-helloworld](./challenges/1-helloworld): submit a Ghidra Script to simply print Hello World to understand the Ghidra Script submission process.
+* [1-helloworld](./challenges/1-helloworld): submit a Ghidra Script to simply print "Hello world" to understand the Ghidra Script submission process.
   * Note, if using python, ```println``` has to be used to get captured in [analyzeHeadless](https://github.com/NationalSecurityAgency/ghidra/blob/master/Ghidra/RuntimeScripts/Linux/support/analyzeHeadless)' ```-scriptLog``` output.
   
 * [2-ghidra-metadata](./challenges/2-ghidra-metadata): Obtain metadata about the currently loaded program.

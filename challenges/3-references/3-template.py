@@ -12,7 +12,7 @@ for func in functions:
         entryPoint = ???? # get the entry point of the function 
 
         refs = ????? # get the references to entryPoint
-       """
+        """
 
         break
 
