@@ -36,7 +36,7 @@ public class solve_3 extends GhidraScript {
                 break;
          
             }
-            }
+        }
         for (Reference reference : refs) {
             println("Reference to address: " + reference.getFromAddress());
         	
