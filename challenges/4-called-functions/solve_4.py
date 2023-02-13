@@ -3,7 +3,7 @@ def run():
         
     while functions.hasNext():
         func = functions.next()
-        if func.getName() == "_secondMain":
+        if func.getName() == "secondMain":
             """
             calledFunctions = ????? # get called functions of func
             """

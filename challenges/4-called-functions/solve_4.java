@@ -2,7 +2,7 @@
 
 import ghidra.app.script.GhidraScript;
 
-public class FunctionCalls extends GhidraScript {
+public class solve_4 extends GhidraScript {
 
     @Override
     public void run() throws Exception {

@@ -2,7 +2,7 @@
 
 import ghidra.app.script.GhidraScript;
 
-public class CountSymbolsScript extends GhidraScript {
+public class solve_2 extends GhidraScript {
 
     @Override
     public void run() {

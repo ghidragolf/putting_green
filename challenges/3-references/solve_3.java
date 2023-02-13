@@ -3,7 +3,7 @@ import ghidra.program.model.listing.*;
 import ghidra.program.model.symbol.*;
 import ghidra.program.model.address.*;
 
-public class GetRefs extends GhidraScript {
+public class solve_3 extends GhidraScript {
 
     @Override
     protected void run() throws Exception {
